@@ -39,7 +39,27 @@
 
 
 
+@media screen and (min-width:960px){
+	.hero{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 560px;
+		background: url('../img/hero_desktop.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
+}
 
+@media screen and (max-width:420px){
+	.hero{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 560px;
+		background: url('../img/hero_mobile_small.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
+}
 
 
 
@@ -201,7 +221,7 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
+	background: url('../img/hero_desktop.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
 
